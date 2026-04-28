@@ -43,7 +43,7 @@ const handleAdd = async (e) => {
 
     setTitle("");
     fetchData();
-  } catch (error) {
+  } catch {
     toast.dismiss(loading);
     toast.error("Failed to add task ❌");
   }

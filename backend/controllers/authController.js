@@ -14,7 +14,7 @@ exports.signup = async (req, res) => {
 
   const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET);
 
-  res.json({ token }); // ✅ send token
+  res.json({ token });
 };
 
 exports.login = async (req, res) => {
