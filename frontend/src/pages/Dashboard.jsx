@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavBar";
 import TaskItem from "../components/TaskItem";
 import { getTasks, addTask, updateTask, deleteTask } from "../services/api";
 import toast from "react-hot-toast";
